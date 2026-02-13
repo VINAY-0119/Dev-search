@@ -1,0 +1,40 @@
+{% extends 'main.html' %}
+
+{% block title %}Delete Project - DevSearch{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card border-danger shadow">
+                <div class="card-body p-5">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-exclamation-triangle fa-3x text-danger mb-3"></i>
+                        <h2 class="card-title text-danger">Delete Project</h2>
+                    </div>
+
+                    <div class="alert alert-warning mb-4">
+                        <strong>Warning!</strong> This action cannot be undone.
+                    </div>
+
+                    <p class="lead text-center mb-4">
+                        Are you sure you want to delete <strong>"{{ object }}"</strong>?
+                    </p>
+
+                    <form action="" method="POST">
+                        {% csrf_token %}
+                        <div class="d-flex gap-2">
+                            <button type="submit" class="btn btn-danger btn-lg flex-grow-1">
+                                <i class="fas fa-trash"></i> Yes, Delete It
+                            </button>
+                            <a href="{% url 'projects' %}" class="btn btn-secondary btn-lg flex-grow-1">
+                                <i class="fas fa-arrow-left"></i> Cancel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
