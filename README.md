@@ -16,9 +16,13 @@
 ## 📸 Screenshots
 
 | Featured Projects | Login Page |
-|:---:|:---:|
+<p align="center">
+  <img src="Screenshot%202026-02-09%20200038.png" alt="Featured Projects" width="800">
+</p>
 
---- | ![Login](images/login.png) |
+<p align="center">
+  <img src="Screenshot%202026-02-09%20200155.png" alt="Login Page" width="800">
+</p>
 | Browse all projects with vote ratios & CRUD actions | Secure sign-in with register option |
 
 ---
