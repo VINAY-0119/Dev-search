@@ -17,9 +17,7 @@
 
 | Featured Projects | Login Page |
 |:---:|:---:|
-|<p align="center">
-  <img src="Amazon%20Power%20Bi.png" alt="Amazon Sales Analysis" width="800">
-</p>
+
 --- | ![Login](images/login.png) |
 | Browse all projects with vote ratios & CRUD actions | Secure sign-in with register option |
 
